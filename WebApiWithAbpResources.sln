@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithAbpResources", "WebApiWithAbpResources\WebApiWithAbpResources.csproj", "{4A6E525B-EF57-4CF5-A944-C3F5CDE82A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A6E525B-EF57-4CF5-A944-C3F5CDE82A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6E525B-EF57-4CF5-A944-C3F5CDE82A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6E525B-EF57-4CF5-A944-C3F5CDE82A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6E525B-EF57-4CF5-A944-C3F5CDE82A87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5944CBC0-F61C-446B-A4E4-477C131F65F9}
+	EndGlobalSection
+EndGlobal

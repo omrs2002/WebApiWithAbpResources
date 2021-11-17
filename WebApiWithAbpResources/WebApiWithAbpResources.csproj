@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Localization\Resources\Test\ar.json" />
+    <Content Remove="Localization\Resources\Test\en-US.json" />
+    <Content Remove="Localization\Resources\Test\en.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\Resources\Test\ar.json" />
+    <EmbeddedResource Include="Localization\Resources\Test\en-US.json" />
+    <EmbeddedResource Include="Localization\Resources\Test\en.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Volo.Abp.Localization" Version="4.4.4" />
+  </ItemGroup>
+
+</Project>
