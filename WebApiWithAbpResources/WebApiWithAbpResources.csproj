@@ -6,13 +6,13 @@
 
   <ItemGroup>
     <Content Remove="Localization\Resources\Test\ar.json" />
-    <Content Remove="Localization\Resources\Test\en-US.json" />
     <Content Remove="Localization\Resources\Test\en.json" />
+    <Content Remove="Localization\Resources\Test\tr.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Localization\Resources\Test\ar.json" />
-    <EmbeddedResource Include="Localization\Resources\Test\en-US.json" />
+    <EmbeddedResource Include="Localization\Resources\Test\tr.json" />
     <EmbeddedResource Include="Localization\Resources\Test\en.json" />
   </ItemGroup>
 
