@@ -13,8 +13,6 @@ namespace WebApiWithAbpResources.Controllers
 
         private readonly IStringLocalizer<TestResource> _localizer;
         private readonly ILogger<WeatherForecastController> _logger;
-        private readonly MyService _myserv;
-
 
         public WeatherForecastController(
             ILogger<WeatherForecastController> logger,
@@ -23,7 +21,6 @@ namespace WebApiWithAbpResources.Controllers
         {
             _logger = logger;
             _localizer = localizer;
-            _myserv = new MyService(_localizer);
         }
 
         [HttpGet]

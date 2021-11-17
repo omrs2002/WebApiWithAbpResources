@@ -12,8 +12,8 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Localization\Resources\Test\ar.json" />
-    <EmbeddedResource Include="Localization\Resources\Test\tr.json" />
     <EmbeddedResource Include="Localization\Resources\Test\en.json" />
+    <EmbeddedResource Include="Localization\Resources\Test\tr.json" />
   </ItemGroup>
 
   <ItemGroup>
